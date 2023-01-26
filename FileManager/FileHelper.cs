@@ -30,7 +30,7 @@
             }
         }
 
-        public void ExtractFileContent()
+        public virtual void ExtractFileContent()
         {
             StreamReader streamReader = new StreamReader(_fullPath);
             string line;
