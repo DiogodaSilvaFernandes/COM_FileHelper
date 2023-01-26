@@ -47,7 +47,6 @@ namespace InOutLib
         #region private methods
         private bool IsCharSupported(char separator)
         {
-            //TODO IsCharSupported - 2pts
             if(!_supportedSeparators.Contains(separator))
                 return false;
 
